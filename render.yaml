@@ -3,7 +3,7 @@ services:
   - type: web
     name: mi6x
     env: docker
-    repo: https://github.com/NachoNeko1/alist-render # optional
+    repo: https://github.com/NachoNeko1/alist-render.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
